@@ -4,6 +4,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
+    url="https://github.com/yirzhou/gpgodzilla",
+    author="Yiren Zhou",
+    author_email="yiren.chow@gmail.com",
     name="gpgodzilla",
     version="0.0.1",
     description="Modify large text file line by line and encrypt with GnuPG.",
